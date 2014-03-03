@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE735E1D18C4901900231223 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE735E1C18C4901900231223 /* Foundation.framework */; };
+		CE735E1F18C4901900231223 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE735E1E18C4901900231223 /* CoreGraphics.framework */; };
+		CE735E2118C4901900231223 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE735E2018C4901900231223 /* UIKit.framework */; };
+		CE735E2718C4901A00231223 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE735E2518C4901A00231223 /* InfoPlist.strings */; };
+		CE735E2918C4901A00231223 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE735E2818C4901A00231223 /* main.m */; };
+		CE735E2D18C4901A00231223 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE735E2C18C4901A00231223 /* AppDelegate.m */; };
+		CE735E3018C4901A00231223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE735E2E18C4901A00231223 /* Main.storyboard */; };
+		CE735E3318C4901A00231223 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE735E3218C4901A00231223 /* ViewController.m */; };
+		CE735E3518C4901A00231223 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE735E3418C4901A00231223 /* Images.xcassets */; };
+		CE735E3C18C4901A00231223 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE735E3B18C4901A00231223 /* XCTest.framework */; };
+		CE735E3D18C4901A00231223 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE735E1C18C4901900231223 /* Foundation.framework */; };
+		CE735E3E18C4901A00231223 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE735E2018C4901900231223 /* UIKit.framework */; };
+		CE735E4618C4901A00231223 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE735E4418C4901A00231223 /* InfoPlist.strings */; };
+		CE735E4818C4901A00231223 /* textfiledTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE735E4718C4901A00231223 /* textfiledTests.m */; };
+		CE735E5618C49DD700231223 /* BCTextFiledPadding.m in Sources */ = {isa = PBXBuildFile; fileRef = CE735E5518C49DD700231223 /* BCTextFiledPadding.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE735E3F18C4901A00231223 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE735E1118C4901900231223 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE735E1818C4901900231223;
+			remoteInfo = textfiled;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE735E1918C4901900231223 /* BCTextFiledPadding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BCTextFiledPadding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE735E1C18C4901900231223 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE735E1E18C4901900231223 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE735E2018C4901900231223 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE735E2418C4901A00231223 /* BCTextFiledPadding-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BCTextFiledPadding-Info.plist"; sourceTree = "<group>"; };
+		CE735E2618C4901A00231223 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE735E2818C4901A00231223 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE735E2A18C4901A00231223 /* BCTextFiledPadding-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BCTextFiledPadding-Prefix.pch"; sourceTree = "<group>"; };
+		CE735E2B18C4901A00231223 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE735E2C18C4901A00231223 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE735E2F18C4901A00231223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE735E3118C4901A00231223 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE735E3218C4901A00231223 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE735E3418C4901A00231223 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE735E3A18C4901A00231223 /* BCTextFiledPaddingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BCTextFiledPaddingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE735E3B18C4901A00231223 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CE735E4318C4901A00231223 /* BCTextFiledPaddingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BCTextFiledPaddingTests-Info.plist"; sourceTree = "<group>"; };
+		CE735E4518C4901A00231223 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE735E4718C4901A00231223 /* textfiledTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textfiledTests.m; sourceTree = "<group>"; };
+		CE735E5418C49DD700231223 /* BCTextFiledPadding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCTextFiledPadding.h; path = textfiled/BCTextFiledPadding.h; sourceTree = "<group>"; };
+		CE735E5518C49DD700231223 /* BCTextFiledPadding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCTextFiledPadding.m; path = textfiled/BCTextFiledPadding.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE735E1618C4901900231223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE735E1F18C4901900231223 /* CoreGraphics.framework in Frameworks */,
+				CE735E2118C4901900231223 /* UIKit.framework in Frameworks */,
+				CE735E1D18C4901900231223 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE735E3718C4901A00231223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE735E3C18C4901A00231223 /* XCTest.framework in Frameworks */,
+				CE735E3E18C4901A00231223 /* UIKit.framework in Frameworks */,
+				CE735E3D18C4901A00231223 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE735E1018C4901900231223 = {
+			isa = PBXGroup;
+			children = (
+				CE735E5718C49FE400231223 /* BCTextFiledPadding */,
+				CE735E2218C4901900231223 /* textfiled */,
+				CE735E4118C4901A00231223 /* textfiledTests */,
+				CE735E1B18C4901900231223 /* Frameworks */,
+				CE735E1A18C4901900231223 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE735E1A18C4901900231223 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE735E1918C4901900231223 /* BCTextFiledPadding.app */,
+				CE735E3A18C4901A00231223 /* BCTextFiledPaddingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE735E1B18C4901900231223 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE735E1C18C4901900231223 /* Foundation.framework */,
+				CE735E1E18C4901900231223 /* CoreGraphics.framework */,
+				CE735E2018C4901900231223 /* UIKit.framework */,
+				CE735E3B18C4901A00231223 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE735E2218C4901900231223 /* textfiled */ = {
+			isa = PBXGroup;
+			children = (
+				CE735E2B18C4901A00231223 /* AppDelegate.h */,
+				CE735E2C18C4901A00231223 /* AppDelegate.m */,
+				CE735E2E18C4901A00231223 /* Main.storyboard */,
+				CE735E3118C4901A00231223 /* ViewController.h */,
+				CE735E3218C4901A00231223 /* ViewController.m */,
+				CE735E3418C4901A00231223 /* Images.xcassets */,
+				CE735E2318C4901A00231223 /* Supporting Files */,
+			);
+			path = textfiled;
+			sourceTree = "<group>";
+		};
+		CE735E2318C4901A00231223 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE735E2418C4901A00231223 /* BCTextFiledPadding-Info.plist */,
+				CE735E2518C4901A00231223 /* InfoPlist.strings */,
+				CE735E2818C4901A00231223 /* main.m */,
+				CE735E2A18C4901A00231223 /* BCTextFiledPadding-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE735E4118C4901A00231223 /* textfiledTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE735E4718C4901A00231223 /* textfiledTests.m */,
+				CE735E4218C4901A00231223 /* Supporting Files */,
+			);
+			path = textfiledTests;
+			sourceTree = "<group>";
+		};
+		CE735E4218C4901A00231223 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE735E4318C4901A00231223 /* BCTextFiledPaddingTests-Info.plist */,
+				CE735E4418C4901A00231223 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE735E5718C49FE400231223 /* BCTextFiledPadding */ = {
+			isa = PBXGroup;
+			children = (
+				CE735E5418C49DD700231223 /* BCTextFiledPadding.h */,
+				CE735E5518C49DD700231223 /* BCTextFiledPadding.m */,
+			);
+			name = BCTextFiledPadding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE735E1818C4901900231223 /* BCTextFiledPadding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE735E4B18C4901A00231223 /* Build configuration list for PBXNativeTarget "BCTextFiledPadding" */;
+			buildPhases = (
+				CE735E1518C4901900231223 /* Sources */,
+				CE735E1618C4901900231223 /* Frameworks */,
+				CE735E1718C4901900231223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BCTextFiledPadding;
+			productName = textfiled;
+			productReference = CE735E1918C4901900231223 /* BCTextFiledPadding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE735E3918C4901A00231223 /* BCTextFiledPaddingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE735E4E18C4901A00231223 /* Build configuration list for PBXNativeTarget "BCTextFiledPaddingTests" */;
+			buildPhases = (
+				CE735E3618C4901A00231223 /* Sources */,
+				CE735E3718C4901A00231223 /* Frameworks */,
+				CE735E3818C4901A00231223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE735E4018C4901A00231223 /* PBXTargetDependency */,
+			);
+			name = BCTextFiledPaddingTests;
+			productName = textfiledTests;
+			productReference = CE735E3A18C4901A00231223 /* BCTextFiledPaddingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE735E1118C4901900231223 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = BHARAT;
+				TargetAttributes = {
+					CE735E3918C4901A00231223 = {
+						TestTargetID = CE735E1818C4901900231223;
+					};
+				};
+			};
+			buildConfigurationList = CE735E1418C4901900231223 /* Build configuration list for PBXProject "BCTextFiledPadding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE735E1018C4901900231223;
+			productRefGroup = CE735E1A18C4901900231223 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE735E1818C4901900231223 /* BCTextFiledPadding */,
+				CE735E3918C4901A00231223 /* BCTextFiledPaddingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE735E1718C4901900231223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE735E3518C4901A00231223 /* Images.xcassets in Resources */,
+				CE735E2718C4901A00231223 /* InfoPlist.strings in Resources */,
+				CE735E3018C4901A00231223 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE735E3818C4901A00231223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE735E4618C4901A00231223 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE735E1518C4901900231223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE735E3318C4901A00231223 /* ViewController.m in Sources */,
+				CE735E2D18C4901A00231223 /* AppDelegate.m in Sources */,
+				CE735E5618C49DD700231223 /* BCTextFiledPadding.m in Sources */,
+				CE735E2918C4901A00231223 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE735E3618C4901A00231223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE735E4818C4901A00231223 /* textfiledTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE735E4018C4901A00231223 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE735E1818C4901900231223 /* BCTextFiledPadding */;
+			targetProxy = CE735E3F18C4901A00231223 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE735E2518C4901A00231223 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE735E2618C4901A00231223 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE735E2E18C4901A00231223 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE735E2F18C4901A00231223 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE735E4418C4901A00231223 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE735E4518C4901A00231223 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE735E4918C4901A00231223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE735E4A18C4901A00231223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE735E4C18C4901A00231223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "textfiled/BCTextFiledPadding-Prefix.pch";
+				INFOPLIST_FILE = "textfiled/BCTextFiledPadding-Info.plist";
+				PRODUCT_NAME = BCTextFiledPadding;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE735E4D18C4901A00231223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "textfiled/BCTextFiledPadding-Prefix.pch";
+				INFOPLIST_FILE = "textfiled/BCTextFiledPadding-Info.plist";
+				PRODUCT_NAME = BCTextFiledPadding;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CE735E4F18C4901A00231223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/textfiled.app/textfiled";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "textfiled/textfiled-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "textfiledTests/BCTextFiledPaddingTests-Info.plist";
+				PRODUCT_NAME = BCTextFiledPaddingTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CE735E5018C4901A00231223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/textfiled.app/textfiled";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "textfiled/textfiled-Prefix.pch";
+				INFOPLIST_FILE = "textfiledTests/BCTextFiledPaddingTests-Info.plist";
+				PRODUCT_NAME = BCTextFiledPaddingTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE735E1418C4901900231223 /* Build configuration list for PBXProject "BCTextFiledPadding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE735E4918C4901A00231223 /* Debug */,
+				CE735E4A18C4901A00231223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE735E4B18C4901A00231223 /* Build configuration list for PBXNativeTarget "BCTextFiledPadding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE735E4C18C4901A00231223 /* Debug */,
+				CE735E4D18C4901A00231223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE735E4E18C4901A00231223 /* Build configuration list for PBXNativeTarget "BCTextFiledPaddingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE735E4F18C4901A00231223 /* Debug */,
+				CE735E5018C4901A00231223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE735E1118C4901900231223 /* Project object */;
+}
